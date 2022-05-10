@@ -58,7 +58,8 @@ public class Product {
     }
 
     public void show () {
-        System.out.println("The amount of product bought is " + getAmount());
+        System.out.println("Product brought was " + getProductName());
+        System.out.println("The amount of products bought: " + getAmount());
         System.out.println("This product cost: " + getProductCost());
     }
 
